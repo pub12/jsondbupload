@@ -1,10 +1,5 @@
 import json
 
-# from app import myapp, logger #,  db d 
-# class LocLog:
-# 	def debug(self, message):
-# 		print(message)
-
 class JsonDBUpload(object):
 	def __init__(self, db, logger=None):
 		self.db = db
@@ -120,17 +115,6 @@ class JsonDBUpload(object):
 			update_value = None
 
 		setattr(table_obj, field, update_value)
-
-
-	# #########################################################################################################
-	# #	Update database
-	# def _dynamic_import(self, name):
-	# 	breakpoint()
-	# 	components = name.split('.')
-	# 	mod = __import__(components[0])
-	# 	for comp in components[1:]:
-	# 		mod = getattr(mod, comp)
-	# 	return mod
 
 	#########################################################################################################
 	#	Update database
