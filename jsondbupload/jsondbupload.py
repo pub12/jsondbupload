@@ -19,9 +19,9 @@ class JsonDBUpload(object):
 			data = json.loads( json_file.read() )
 		if self.logger: self.logger.debug( data )
 
-		self.update_tables_from_json(data)
+		self.update_tables_from_dict(data)
 
-	def update_tables_from_json(self, data):
+	def update_tables_from_dict(self, data):
 		updated_pks = {}  
 		
 		for table in data:		#Loop through each table record

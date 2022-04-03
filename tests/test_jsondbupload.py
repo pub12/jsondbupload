@@ -79,14 +79,14 @@ class TestJsonDBUpload(unittest.TestCase):
 		self.assertEqual( True, isinstance(auth.id, int))
 	
 	#################################################################################
-	def _create_json_to_db_instance(self, db, db_upload_str):
+	def _create_json_to_db_instance(self, db, db_upload_dict):
 		logger = MCLogger( 'test_log.text').getLogger()
 		j2db = JsonDBUpload( db, logger )
-		j2db.update_tables_from_json( db_upload_str) 
+		j2db.update_tables_from_dict( db_upload_dict) 
 
 	#################################################################################
 	def test_json_insert_single(self):
-		db_upload_str = [
+		db_upload_dict = [
 					{		
 						"table_name":"author", 
 						"data":[
@@ -97,16 +97,16 @@ class TestJsonDBUpload(unittest.TestCase):
 					}
 		]
 		db = self._db_session()
-		j2db = self._create_json_to_db_instance( db, db_upload_str )
+		j2db = self._create_json_to_db_instance( db, db_upload_dict )
 
 		auth_list = db.session.query( db._models.Author ).all()
 
 		for index, item in enumerate(auth_list):
-			self.assertEqual( auth_list[ index ].name, db_upload_str[0]['data'][index ]['name'])
+			self.assertEqual( auth_list[ index ].name, db_upload_dict[0]['data'][index ]['name'])
 	
 	#################################################################################
 	def test_json_insert_linked_two_tables(self):
-		db_upload_str = [
+		db_upload_dict = [
 					{		
 						"table_name":"author", 
 						"data":[
@@ -127,21 +127,21 @@ class TestJsonDBUpload(unittest.TestCase):
 					
 		]
 		db = self._db_session()
-		j2db = self._create_json_to_db_instance( db, db_upload_str )
+		j2db = self._create_json_to_db_instance( db, db_upload_dict )
 
 		# auth_list = db.session.query( db._models.Author ).all()
 		book_list = db.session.query( db._models.Book ).all()
 
 		for index, item in enumerate(book_list):
 			# breakpoint()
-			self.assertEqual( book_list[ index ].name, db_upload_str[1]['data'][index ]['name'])
-			self.assertEqual( book_list[ index ]._author.name, db_upload_str[0]['data'][index ]['name'])
+			self.assertEqual( book_list[ index ].name, db_upload_dict[1]['data'][index ]['name'])
+			self.assertEqual( book_list[ index ]._author.name, db_upload_dict[0]['data'][index ]['name'])
 	
 	
 
 	#################################################################################
 	def test_json_insert_linked_four_tables(self):
-		db_upload_str = [
+		db_upload_dict = [
 					{		
 						"table_name":"author", 
 						"data":[
@@ -176,15 +176,15 @@ class TestJsonDBUpload(unittest.TestCase):
 					
 		]
 		db = self._db_session()
-		j2db = self._create_json_to_db_instance( db, db_upload_str )
+		j2db = self._create_json_to_db_instance( db, db_upload_dict )
 
 		# auth_list = db.session.query( db._models.Author ).all()
 		booksets = db.session.query( db._models.BooksetItems ).all()
 
 		for index, item in enumerate(booksets):
 			# breakpoint()
-			self.assertEqual( booksets[ index ]._bookset.name , db_upload_str[2]['data'][0 ]['name'])
-			self.assertEqual( booksets[ index ]._book.name    , db_upload_str[1]['data'][index ]['name'])
+			self.assertEqual( booksets[ index ]._bookset.name , db_upload_dict[2]['data'][0 ]['name'])
+			self.assertEqual( booksets[ index ]._book.name    , db_upload_dict[1]['data'][index ]['name'])
 	
 	
 
