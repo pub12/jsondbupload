@@ -17,28 +17,27 @@ There are two key paramaters:
 JSONDBUpload is avaialble through PyPi or you may use git:
 
 ```
-	pip install jsondbupoad
+pip install jsondbupoad
 ```
 
 Or, through git:
 ```
-	git clone https://github.com/pub12/jsondbupload.git
+git clone https://github.com/pub12/jsondbupload.git
 ```
 
 ### How to use jsondbupload?
 The module is relatively easy to use.  All that is required is a file, and a database session.  The file format is as follows:
 ```
-
-		[
-					{		
-						"table_name":"<table name>", 
-						"foreign_keys":[ { "<field name in current table>":"<table name of foreign table>.<field name>"} ],
-						"data":[
-									{"<field name>":"<field value>", ... },
-									....
-						]
-					}
+[
+	{		
+		"table_name":"<table name>", 
+		"foreign_keys":[ { "<field name in current table>":"<table name of foreign table>.<field name>"} ],
+		"data":[
+					{"<field name>":"<field value>", ... },
+					....
 		]
+	}
+]
 ```
 
 There are three key fields:
@@ -48,50 +47,50 @@ There are three key fields:
 
 Here's a working example to update 3 tables.  Firstly this is the sqlalchmey schema:
 ```
-		class Author(db.Model):
-			__tablename__ = 'author' 
-			id = db.Column(db.Integer(), primary_key=True)
-			name = db.Column(db.Integer() )
+class Author(db.Model):
+	__tablename__ = 'author' 
+	id = db.Column(db.Integer(), primary_key=True)
+	name = db.Column(db.Integer() )
 
-		class Book(db.Model):
-			__tablename__ = 'book' 
-			id = db.Column(db.Integer(), primary_key=True)
-			name = db.Column(db.Integer() )
-			author_id = db.Column( db.Integer()  , db.ForeignKey( 'author.id'  ) )
-			_author = db.relationship("Author", backref=db.backref("author" ), lazy='joined')
+class Book(db.Model):
+	__tablename__ = 'book' 
+	id = db.Column(db.Integer(), primary_key=True)
+	name = db.Column(db.Integer() )
+	author_id = db.Column( db.Integer()  , db.ForeignKey( 'author.id'  ) )
+	_author = db.relationship("Author", backref=db.backref("author" ), lazy='joined')
 
 
-		class Bookset(db.Model):
-			__tablename__ = 'bookset' 
-			id = db.Column(db.Integer(), primary_key=True)
-			name = db.Column(db.Integer() )
+class Bookset(db.Model):
+	__tablename__ = 'bookset' 
+	id = db.Column(db.Integer(), primary_key=True)
+	name = db.Column(db.Integer() )
 ```
 
 And here's the json data to be used, this is in a file called `db_upload_file.json` (this can be any filename of course):
 ```
-		[
-					{		
-						"table_name":"author", 
-						"data":[
-									{"id":"AA_1", "name":"James"  },
-									{"id":"AA_2", "name":"Moneypenny" }
-						]
-					},
-					{		
-						"table_name":"book", 
-						"foreign_keys":[ { "author_id":"author.id"} ],
-						"data":[
-									{"id":"BB_1", "author_id":"AA_1", "name":"Never say Never"  },
-									{"id":"BB_2", "author_id":"AA_2", "name":"Goldeneye" }
-						]
-					},
-					{		
-						"table_name":"bookset", 
-						"data":[
-									{"id":"", "name":"Best of Bond"  }
-						]
-					}
+[
+	{		
+		"table_name":"author", 
+		"data":[
+					{"id":"AA_1", "name":"James"  },
+					{"id":"AA_2", "name":"Moneypenny" }
 		]
+	},
+	{		
+		"table_name":"book", 
+		"foreign_keys":[ { "author_id":"author.id"} ],
+		"data":[
+					{"id":"BB_1", "author_id":"AA_1", "name":"Never say Never"  },
+					{"id":"BB_2", "author_id":"AA_2", "name":"Goldeneye" }
+		]
+	},
+	{		
+		"table_name":"bookset", 
+		"data":[
+					{"id":"", "name":"Best of Bond"  }
+		]
+	}
+]
 ```
 
 In this example, we have:
@@ -169,15 +168,15 @@ for item in auth_list:
 	- *data*: A list of dictionaries with table names for each.  Format must be as follows:
 	```
 
-		[
-					{		
-						"table_name":"<table name>", 
-						"foreign_keys":[ { "<field name in current table>":"<table name of foreign table>.<field name>"} ],
-						"data":[
-									{"<field name>":"<field value>", ... },
-									....
-						]
-					}
-		]
+	[
+		{		
+			"table_name":"<table name>", 
+			"foreign_keys":[ { "<field name in current table>":"<table name of foreign table>.<field name>"} ],
+			"data":[
+						{"<field name>":"<field value>", ... },
+						....
+			]
+		}
+	]
 	```
 
