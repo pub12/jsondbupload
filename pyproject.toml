@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jsondbupload"
-version = "1.0.1"
+version = "1.0.2"
 description = "Insert records to relational database from json file"
 authors = ["pub12 <pubudu79@gmail.com>"]
 license = "MIT"
