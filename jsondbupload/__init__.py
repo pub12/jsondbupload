@@ -1,1 +1,1 @@
-from jsondbupload import JsonDBUpload
+from .jsondbupload import JsonDBUpload

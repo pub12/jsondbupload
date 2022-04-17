@@ -80,7 +80,7 @@ class TestJsonDBUpload(unittest.TestCase):
 	
 	#################################################################################
 	def _create_json_to_db_instance(self, db, db_upload_dict):
-		logger = MCLogger( 'test_log.text').getLogger()
+		logger = MCLogger( 'test_log.text')
 		j2db = JsonDBUpload( db, logger )
 		j2db.update_tables_from_dict( db_upload_dict) 
 
