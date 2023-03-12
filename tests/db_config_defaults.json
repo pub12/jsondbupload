@@ -1,0 +1,52 @@
+
+[
+	{		
+		"table_name":"config", 
+		"data":[
+					{"id":"CFG_1_SYS_DIR_*", "area":"SYS", "category":"DIR", "sub_cat":"" },
+
+					{"id":"CFG_2_SEC_*_*", "area":"SEC", "category":"", "sub_cat":"" },
+
+					{"id":"CFG_3_APP_DIR_*", "area":"APP", "category":"DIR", "sub_cat":"" },
+					
+					{"id":"CFG_4_SYS_SEC_*", "area":"SYS", "category":"SEC", "sub_cat":"" },
+
+					{"id":"CFG_5_SYS_DB_*", "area":"SYS", "category":"DB", "sub_cat":"" },
+
+					{"id":"CFG_6_APP_MAIL_*", "area":"APP", "category":"MAIL", "sub_cat":"" }
+
+		]
+	},
+	{		
+		"table_name":"config_item",
+		"foreign_keys":[ { "config_id":"config.id"} ], 
+		"data":[
+					{"id":"", "config_id":"CFG_1_SYS_DIR_*", "env":"dev", "name":"ENV_BASE_DIR", "value":"" },
+					{"id":"", "config_id":"CFG_1_SYS_DIR_*", "env":"dev",  "name":"APP_DIR", 	"value":"" },
+
+					{"id":"", "config_id":"CFG_2_SEC_*_*", "env":"*", "name":"PERMISSIONS", "value":"{'list':['none', 'admin_menu_access' , 'general_menu_access'] }" },
+					{"id":"", "config_id":"CFG_2_SEC_*_*", "env":"*", "name":"MAP", "value": "[ {'name'  : 'admin','label' : 'Admin','permissions' : [ 'admin_menu_access', 'general_menu_access'] }, {'name'  : 'general', 'label' : 'General', 'permissions' : [  'general_menu_access'] } ]"},
+					{"id":"", "config_id":"CFG_2_SEC_*_*", "env":"*", "name":"ROLE_NAME_ADMIN", "value": "admin"},
+					{"id":"", "config_id":"CFG_2_SEC_*_*", "env":"*", "name":"ROLE_NAME_GEN", "value": "general"},
+					{"id":"", "config_id":"CFG_3_APP_DIR_*", "env":"dev",   "name":"SITE_TEMPLATES_BASE_DIR", "value":""},
+
+					{"id":"", "config_id":"CFG_4_SYS_SEC_*", "env":"*", "name":"SECRET_KEY", "value": ""},
+					
+					{"id":"", "config_id":"CFG_5_SYS_DB_*", "env":"*", "name":"SQLALCHEMY_TRACK_MODIFICATIONS", "value": "false"},
+					
+					{"id":"", "config_id":"CFG_6_APP_MAIL_*", "env":"*", "name":"SERVER", "value": ""},
+					{"id":"", "config_id":"CFG_6_APP_MAIL_*", "env":"*", "name":"PORT", "value": ""},
+					{"id":"", "config_id":"CFG_6_APP_MAIL_*", "env":"*", "name":"USE_SSL", "value": ""},
+					{"id":"", "config_id":"CFG_6_APP_MAIL_*", "env":"*", "name":"USE_TSL", "value": ""},
+					{"id":"", "config_id":"CFG_6_APP_MAIL_*", "env":"*", "name":"USERNAME", "value": ""},
+					{"id":"", "config_id":"CFG_6_APP_MAIL_*", "env":"*", "name":"PASSWORD", "value": ""},
+					{"id":"", "config_id":"CFG_6_APP_MAIL_*", "env":"*", "name":"DEFAULT_SENDER", "value": ""},
+					{"id":"", "config_id":"CFG_6_APP_MAIL_*", "env":"*", "name":"USER_EMAIL_SENDER_NAME", "value": ""},
+					{"id":"", "config_id":"CFG_6_APP_MAIL_*", "env":"*", "name":"USER_EMAIL_SENDER_EMAIL", "value": ""}
+					
+		]
+	}
+	
+]
+    
+   

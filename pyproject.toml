@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "jsondbupload"
-version = "1.0.4"
+version = "1.0.6"
 description = "Insert records to relational database from json file"
 authors = ["pub12 <pubudu79@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/pubs12/jsondbupload"
+homepage = "https://github.com/pub12/jsondbupload"
 
 [tool.poetry.dependencies]
 python = "^3.8"

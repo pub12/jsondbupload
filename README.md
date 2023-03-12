@@ -136,8 +136,8 @@ db = SQLAlchemy(app)
 logger = MCLogger( 'test_log.text').getLogger()
 
 #>>>> Two lines to ulaod json data!  It will also do the commit to the database.  The logger is optional and will show on screen what's happening under the hood.
-j2db = JsonDBUpload( logger )
-j2db.update_tables_from_file( db, 'db_upload_file.json' )
+j2db = JsonDBUpload( db, logger )
+j2db.update_tables_from_file(  'db_upload_file.json' )
 #>>>>>
 
 #After inserts, this will print out the records updated

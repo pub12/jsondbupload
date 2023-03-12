@@ -1,4 +1,4 @@
-import json
+import json, os
 
 class JsonDBUpload(object):
 	def __init__(self, db, logger=None):
@@ -10,12 +10,18 @@ class JsonDBUpload(object):
 	#########################################################################################################
 	#	Load values from config files to database tables
 	def update_tables_from_file(self, data_file):
+
+		if not os.path.exists(data_file):
+			raise Exception( f"Cannot find file {[data_file]}.  Working directory is [{os.path.curdir}] (absoluate path: {os.path.realpath( os.path.curdir)} )")
+
 		with open(data_file, 'r') as json_file:
 			data = json.loads( json_file.read() )
 		if self.logger: self.logger.debug( data )
 
 		self.update_tables_from_dict(data)
 
+	#########################################################################################################
+	#	Load values from config files to database tables
 	def update_tables_from_dict(self, data):
 		updated_pks = {}  
 		
