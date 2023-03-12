@@ -180,3 +180,6 @@ for item in auth_list:
 	]
 	```
 
+### Change Log
+## Version 1.0.6
+- Added ability to use single line and multiline comments in json file using jstyleson library

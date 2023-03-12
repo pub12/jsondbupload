@@ -1,4 +1,6 @@
 dist/*
+tests/__pycache__
 tests/test.db
 tests/test_log.text
 .hypothesis/*
+test_log.text

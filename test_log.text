@@ -701,3 +701,797 @@
 [34m2023-03-12,04:08:49 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
 [34m2023-03-12,04:08:49 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
 [34m2023-03-12,04:08:49 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'AA_1', 'name': 'James'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'AA_1', 'name': 'James'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [AA_1] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [AA_1] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[James], 
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[James], 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'AA_2', 'name': 'Moneypenny'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'AA_2', 'name': 'Moneypenny'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [AA_2] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [AA_2] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Moneypenny], 
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Moneypenny], 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'BB_1', 'author_id': 'AA_1', 'name': 'Never say Never'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'BB_1', 'author_id': 'AA_1', 'name': 'Never say Never'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [BB_1] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [BB_1] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_1]
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_1]
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Never say Never], 
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Never say Never], 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'BB_2', 'author_id': 'AA_2', 'name': 'Goldeneye'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'BB_2', 'author_id': 'AA_2', 'name': 'Goldeneye'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [BB_2] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [BB_2] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_2]
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_2]
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Goldeneye], 
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Goldeneye], 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'BS_1', 'name': 'Best of Bond'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'BS_1', 'name': 'Best of Bond'}
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [BS_1] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [BS_1] due to auto-gen 
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Bookset>> # name:[Best of Bond], 
+[34m2023-03-12,04:24:06 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Bookset>> # name:[Best of Bond], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_1'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_1'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_1]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_1]
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[1], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[1], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_2'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_2'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_2]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_2]
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[2], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[2], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[92] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_records[55] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[34mjsondbupload.py::_add_table_record_fields[88] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:24:07 [0m[36mjsondbupload.py::_add_table_record_fields[105] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::update_tables_from_file[20] [DEBUG]:[0m[{'table_name': 'config', 'data': [{'id': 'CFG_1_SYS_DIR_*', 'area': 'SYS', 'category': 'DIR', 'sub_cat': ''}, {'id': 'CFG_2_SEC_*_*', 'area': 'SEC', 'category': '', 'sub_cat': ''}, {'id': 'CFG_3_APP_DIR_*', 'area': 'APP', 'category': 'DIR', 'sub_cat': ''}, {'id': 'CFG_4_SYS_SEC_*', 'area': 'SYS', 'category': 'SEC', 'sub_cat': ''}, {'id': 'CFG_5_SYS_DB_*', 'area': 'SYS', 'category': 'DB', 'sub_cat': ''}, {'id': 'CFG_6_APP_MAIL_*', 'area': 'APP', 'category': 'MAIL', 'sub_cat': ''}]}, {'table_name': 'config_item', 'foreign_keys': [{'config_id': 'config.id'}], 'data': [{'id': '', 'config_id': 'CFG_1_SYS_DIR_*', 'env': 'dev', 'name': 'ENV_BASE_DIR', 'value': ''}, {'id': '', 'config_id': 'CFG_1_SYS_DIR_*', 'env': 'dev', 'name': 'APP_DIR', 'value': ''}, {'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'PERMISSIONS', 'value': "{'list':['none', 'admin_menu_access' , 'general_menu_access'] }"}, {'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'MAP', 'value': "[ {'name'  : 'admin','label' : 'Admin','permissions' : [ 'admin_menu_access', 'general_menu_access'] }, {'name'  : 'general', 'label' : 'General', 'permissions' : [  'general_menu_access'] } ]"}, {'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'ROLE_NAME_ADMIN', 'value': 'admin'}, {'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'ROLE_NAME_GEN', 'value': 'general'}, {'id': '', 'config_id': 'CFG_3_APP_DIR_*', 'env': 'dev', 'name': 'SITE_TEMPLATES_BASE_DIR', 'value': ''}, {'id': '', 'config_id': 'CFG_4_SYS_SEC_*', 'env': '*', 'name': 'SECRET_KEY', 'value': ''}, {'id': '', 'config_id': 'CFG_5_SYS_DB_*', 'env': '*', 'name': 'SQLALCHEMY_TRACK_MODIFICATIONS', 'value': 'false'}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'SERVER', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'PORT', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USE_SSL', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USE_TSL', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USERNAME', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'PASSWORD', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'DEFAULT_SENDER', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USER_EMAIL_SENDER_NAME', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USER_EMAIL_SENDER_EMAIL', 'value': ''}]}]
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_1_SYS_DIR_*', 'area': 'SYS', 'category': 'DIR', 'sub_cat': ''}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_1_SYS_DIR_*] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[SYS], category:[DIR], sub_cat:[], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_2_SEC_*_*', 'area': 'SEC', 'category': '', 'sub_cat': ''}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_2_SEC_*_*] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[SEC], category:[], sub_cat:[], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_3_APP_DIR_*', 'area': 'APP', 'category': 'DIR', 'sub_cat': ''}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_3_APP_DIR_*] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[APP], category:[DIR], sub_cat:[], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_4_SYS_SEC_*', 'area': 'SYS', 'category': 'SEC', 'sub_cat': ''}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_4_SYS_SEC_*] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[SYS], category:[SEC], sub_cat:[], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_5_SYS_DB_*', 'area': 'SYS', 'category': 'DB', 'sub_cat': ''}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_5_SYS_DB_*] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[SYS], category:[DB], sub_cat:[], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_6_APP_MAIL_*', 'area': 'APP', 'category': 'MAIL', 'sub_cat': ''}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_6_APP_MAIL_*] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[APP], category:[MAIL], sub_cat:[], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_1_SYS_DIR_*', 'env': 'dev', 'name': 'ENV_BASE_DIR', 'value': ''}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_1_SYS_DIR_*]
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[1], env:[dev], name:[ENV_BASE_DIR], value:[], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_1_SYS_DIR_*', 'env': 'dev', 'name': 'APP_DIR', 'value': ''}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_1_SYS_DIR_*]
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[1], env:[dev], name:[APP_DIR], value:[], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'PERMISSIONS', 'value': "{'list':['none', 'admin_menu_access' , 'general_menu_access'] }"}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_2_SEC_*_*]
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[2], env:[*], name:[PERMISSIONS], value:[{'list':['none', 'admin_menu_access' , 'general_menu_access'] }], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'MAP', 'value': "[ {'name'  : 'admin','label' : 'Admin','permissions' : [ 'admin_menu_access', 'general_menu_access'] }, {'name'  : 'general', 'label' : 'General', 'permissions' : [  'general_menu_access'] } ]"}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_2_SEC_*_*]
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[2], env:[*], name:[MAP], value:[[ {'name'  : 'admin','label' : 'Admin','permissions' : [ 'admin_menu_access', 'general_menu_access'] }, {'name'  : 'general', 'label' : 'General', 'permissions' : [  'general_menu_access'] } ]], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'ROLE_NAME_ADMIN', 'value': 'admin'}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_2_SEC_*_*]
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[2], env:[*], name:[ROLE_NAME_ADMIN], value:[admin], 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'ROLE_NAME_GEN', 'value': 'general'}
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:49 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_2_SEC_*_*]
+[34m2023-03-12,04:24:49 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[2], env:[*], name:[ROLE_NAME_GEN], value:[general], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_3_APP_DIR_*', 'env': 'dev', 'name': 'SITE_TEMPLATES_BASE_DIR', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_3_APP_DIR_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[3], env:[dev], name:[SITE_TEMPLATES_BASE_DIR], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_4_SYS_SEC_*', 'env': '*', 'name': 'SECRET_KEY', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_4_SYS_SEC_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[4], env:[*], name:[SECRET_KEY], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_5_SYS_DB_*', 'env': '*', 'name': 'SQLALCHEMY_TRACK_MODIFICATIONS', 'value': 'false'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_5_SYS_DB_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[5], env:[*], name:[SQLALCHEMY_TRACK_MODIFICATIONS], value:[false], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'SERVER', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[SERVER], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'PORT', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[PORT], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USE_SSL', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USE_SSL], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USE_TSL', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USE_TSL], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USERNAME', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USERNAME], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'PASSWORD', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[PASSWORD], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'DEFAULT_SENDER', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[DEFAULT_SENDER], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USER_EMAIL_SENDER_NAME', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USER_EMAIL_SENDER_NAME], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USER_EMAIL_SENDER_EMAIL', 'value': ''}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USER_EMAIL_SENDER_EMAIL], value:[], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_1', 'name': 'James'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_1', 'name': 'James'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_1] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_1] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[James], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[James], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_2', 'name': 'Moneypenny'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_2', 'name': 'Moneypenny'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_2] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_2] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Moneypenny], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Moneypenny], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_1', 'author_id': 'AA_1', 'name': 'Never say Never'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_1', 'author_id': 'AA_1', 'name': 'Never say Never'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_1] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_1] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_1]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_1]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Never say Never], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Never say Never], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_2', 'author_id': 'AA_2', 'name': 'Goldeneye'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_2', 'author_id': 'AA_2', 'name': 'Goldeneye'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_2] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_2] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_2]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_2]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Goldeneye], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Goldeneye], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BS_1', 'name': 'Best of Bond'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BS_1', 'name': 'Best of Bond'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BS_1] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BS_1] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Bookset>> # name:[Best of Bond], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Bookset>> # name:[Best of Bond], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_1'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_1'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_1]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_1]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[1], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[1], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_2'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_2'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_2]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_2]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[2], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[2], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:24:50 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_1', 'name': 'James'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_1', 'name': 'James'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_1] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_1] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[James], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[James], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_2', 'name': 'Moneypenny'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_2', 'name': 'Moneypenny'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_2] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_2] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Moneypenny], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Moneypenny], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_1', 'author_id': 'AA_1', 'name': 'Never say Never'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_1', 'author_id': 'AA_1', 'name': 'Never say Never'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_1] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_1] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_1]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_1]
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Never say Never], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Never say Never], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_2', 'author_id': 'AA_2', 'name': 'Goldeneye'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_2', 'author_id': 'AA_2', 'name': 'Goldeneye'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_2] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_2] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_2]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_2]
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Goldeneye], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Goldeneye], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BS_1', 'name': 'Best of Bond'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BS_1', 'name': 'Best of Bond'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BS_1] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BS_1] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Bookset>> # name:[Best of Bond], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Bookset>> # name:[Best of Bond], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_1'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_1'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_1]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_1]
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[1], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[1], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_2'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_2'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_2]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_2]
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[2], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[2], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:24:59 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:24:59 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:25:00 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::update_tables_from_file[20] [DEBUG]:[0m[{'table_name': 'config', 'data': [{'id': 'CFG_1_SYS_DIR_*', 'area': 'SYS', 'category': 'DIR', 'sub_cat': ''}, {'id': 'CFG_2_SEC_*_*', 'area': 'SEC', 'category': '', 'sub_cat': ''}, {'id': 'CFG_3_APP_DIR_*', 'area': 'APP', 'category': 'DIR', 'sub_cat': ''}, {'id': 'CFG_4_SYS_SEC_*', 'area': 'SYS', 'category': 'SEC', 'sub_cat': ''}, {'id': 'CFG_5_SYS_DB_*', 'area': 'SYS', 'category': 'DB', 'sub_cat': ''}, {'id': 'CFG_6_APP_MAIL_*', 'area': 'APP', 'category': 'MAIL', 'sub_cat': ''}]}, {'table_name': 'config_item', 'foreign_keys': [{'config_id': 'config.id'}], 'data': [{'id': '', 'config_id': 'CFG_1_SYS_DIR_*', 'env': 'dev', 'name': 'ENV_BASE_DIR', 'value': ''}, {'id': '', 'config_id': 'CFG_1_SYS_DIR_*', 'env': 'dev', 'name': 'APP_DIR', 'value': ''}, {'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'PERMISSIONS', 'value': "{'list':['none', 'admin_menu_access' , 'general_menu_access'] }"}, {'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'MAP', 'value': "[ {'name'  : 'admin','label' : 'Admin','permissions' : [ 'admin_menu_access', 'general_menu_access'] }, {'name'  : 'general', 'label' : 'General', 'permissions' : [  'general_menu_access'] } ]"}, {'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'ROLE_NAME_ADMIN', 'value': 'admin'}, {'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'ROLE_NAME_GEN', 'value': 'general'}, {'id': '', 'config_id': 'CFG_3_APP_DIR_*', 'env': 'dev', 'name': 'SITE_TEMPLATES_BASE_DIR', 'value': ''}, {'id': '', 'config_id': 'CFG_4_SYS_SEC_*', 'env': '*', 'name': 'SECRET_KEY', 'value': ''}, {'id': '', 'config_id': 'CFG_5_SYS_DB_*', 'env': '*', 'name': 'SQLALCHEMY_TRACK_MODIFICATIONS', 'value': 'false'}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'SERVER', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'PORT', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USE_SSL', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USE_TSL', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USERNAME', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'PASSWORD', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'DEFAULT_SENDER', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USER_EMAIL_SENDER_NAME', 'value': ''}, {'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USER_EMAIL_SENDER_EMAIL', 'value': ''}]}]
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_1_SYS_DIR_*', 'area': 'SYS', 'category': 'DIR', 'sub_cat': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_1_SYS_DIR_*] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[SYS], category:[DIR], sub_cat:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_2_SEC_*_*', 'area': 'SEC', 'category': '', 'sub_cat': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_2_SEC_*_*] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[SEC], category:[], sub_cat:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_3_APP_DIR_*', 'area': 'APP', 'category': 'DIR', 'sub_cat': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_3_APP_DIR_*] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[APP], category:[DIR], sub_cat:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_4_SYS_SEC_*', 'area': 'SYS', 'category': 'SEC', 'sub_cat': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_4_SYS_SEC_*] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[SYS], category:[SEC], sub_cat:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_5_SYS_DB_*', 'area': 'SYS', 'category': 'DB', 'sub_cat': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_5_SYS_DB_*] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[SYS], category:[DB], sub_cat:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'CFG_6_APP_MAIL_*', 'area': 'APP', 'category': 'MAIL', 'sub_cat': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [CFG_6_APP_MAIL_*] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_Config>> # area:[APP], category:[MAIL], sub_cat:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_1_SYS_DIR_*', 'env': 'dev', 'name': 'ENV_BASE_DIR', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_1_SYS_DIR_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[1], env:[dev], name:[ENV_BASE_DIR], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_1_SYS_DIR_*', 'env': 'dev', 'name': 'APP_DIR', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_1_SYS_DIR_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[1], env:[dev], name:[APP_DIR], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'PERMISSIONS', 'value': "{'list':['none', 'admin_menu_access' , 'general_menu_access'] }"}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_2_SEC_*_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[2], env:[*], name:[PERMISSIONS], value:[{'list':['none', 'admin_menu_access' , 'general_menu_access'] }], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'MAP', 'value': "[ {'name'  : 'admin','label' : 'Admin','permissions' : [ 'admin_menu_access', 'general_menu_access'] }, {'name'  : 'general', 'label' : 'General', 'permissions' : [  'general_menu_access'] } ]"}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_2_SEC_*_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[2], env:[*], name:[MAP], value:[[ {'name'  : 'admin','label' : 'Admin','permissions' : [ 'admin_menu_access', 'general_menu_access'] }, {'name'  : 'general', 'label' : 'General', 'permissions' : [  'general_menu_access'] } ]], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'ROLE_NAME_ADMIN', 'value': 'admin'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_2_SEC_*_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[2], env:[*], name:[ROLE_NAME_ADMIN], value:[admin], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_2_SEC_*_*', 'env': '*', 'name': 'ROLE_NAME_GEN', 'value': 'general'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_2_SEC_*_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[2], env:[*], name:[ROLE_NAME_GEN], value:[general], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_3_APP_DIR_*', 'env': 'dev', 'name': 'SITE_TEMPLATES_BASE_DIR', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_3_APP_DIR_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[3], env:[dev], name:[SITE_TEMPLATES_BASE_DIR], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_4_SYS_SEC_*', 'env': '*', 'name': 'SECRET_KEY', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_4_SYS_SEC_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[4], env:[*], name:[SECRET_KEY], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_5_SYS_DB_*', 'env': '*', 'name': 'SQLALCHEMY_TRACK_MODIFICATIONS', 'value': 'false'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_5_SYS_DB_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[5], env:[*], name:[SQLALCHEMY_TRACK_MODIFICATIONS], value:[false], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'SERVER', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[SERVER], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'PORT', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[PORT], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USE_SSL', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USE_SSL], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USE_TSL', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USE_TSL], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USERNAME', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USERNAME], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'PASSWORD', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[PASSWORD], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'DEFAULT_SENDER', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[DEFAULT_SENDER], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USER_EMAIL_SENDER_NAME', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USER_EMAIL_SENDER_NAME], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'config_id': 'CFG_6_APP_MAIL_*', 'env': '*', 'name': 'USER_EMAIL_SENDER_EMAIL', 'value': ''}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[config] Lookup1:[id] Field:[config_id] Value:[CFG_6_APP_MAIL_*]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<TBL_ConfigItem>> # config_id:[6], env:[*], name:[USER_EMAIL_SENDER_EMAIL], value:[], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_1', 'name': 'James'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_1', 'name': 'James'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_1] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_1] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[James], 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[James], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_2', 'name': 'Moneypenny'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'AA_2', 'name': 'Moneypenny'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_2] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [AA_2] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Moneypenny], 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Moneypenny], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_1', 'author_id': 'AA_1', 'name': 'Never say Never'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_1', 'author_id': 'AA_1', 'name': 'Never say Never'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_1] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_1] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_1]
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_1]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Never say Never], 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Never say Never], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_2', 'author_id': 'AA_2', 'name': 'Goldeneye'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BB_2', 'author_id': 'AA_2', 'name': 'Goldeneye'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_2] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BB_2] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_2]
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[AA_2]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Goldeneye], 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Goldeneye], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BS_1', 'name': 'Best of Bond'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'BS_1', 'name': 'Best of Bond'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BS_1] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [BS_1] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Bookset>> # name:[Best of Bond], 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Bookset>> # name:[Best of Bond], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_1'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_1'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_1]
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_1]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[1], 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[1], 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_2'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'bookset_id': 'BS_1', 'book_id': 'BB_2'}
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[bookset] Lookup1:[id] Field:[bookset_id] Value:[BS_1]
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_2]
+[34m2023-03-12,04:28:57 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[book] Lookup1:[id] Field:[book_id] Value:[BB_2]
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[2], 
+[34m2023-03-12,04:28:57 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<BooksetItems>> # bookset_id:[1], book_id:[2], 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_1', 'name': 'Homer'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_1] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Homer], 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_2', 'name': 'Marge'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_2] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Marge], 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': 'A_3', 'name': 'Bart'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [A_3] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Bart], 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_1', 'name': 'Odessy'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_1]
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[1], name:[Odessy], 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_2', 'name': 'Cooking adventures'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_2]
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[2], name:[Cooking adventures], 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'author_id': 'A_3', 'name': 'Pranks'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[93] [DEBUG]:[0mLookup0:[author] Lookup1:[id] Field:[author_id] Value:[A_3]
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Book>> # author_id:[3], name:[Pranks], 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Harry'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Harry], 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Sarah'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Sarah], 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_records[56] [DEBUG]:[0mprocessing:{'id': '', 'name': 'Julie'}
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[34mjsondbupload.py::_add_table_record_fields[89] [DEBUG]:[0mskipping primary_key:[id] for value [] due to auto-gen 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 
+[34m2023-03-12,04:28:58 [0m[36mjsondbupload.py::_add_table_record_fields[106] [INFO]:[0mAdding record <<Author>> # name:[Julie], 

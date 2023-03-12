@@ -1,4 +1,7 @@
-
+//single line comment
+/* multi-
+ine comment
+*/
 [
 	{		
 		"table_name":"config", 
