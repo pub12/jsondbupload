@@ -1,3 +1,4 @@
 dist/*
 tests/test.db
 tests/test_log.text
+.hypothesis/*
