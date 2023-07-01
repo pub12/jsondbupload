@@ -2,11 +2,14 @@ import json, os
 import jstyleson
 
 class JsonDBUpload(object):
-	def __init__(self, db, logger=None):
+	def __init__(self, db, logger=None, model=None):
 		self.db = db
 		self.logger = logger
 
-		self.tables_dict = {table.__tablename__: table for table in db.Model.__subclasses__()}
+		if model:
+			self.tables_dict = {table.__tablename__: table for table in model.__subclasses__()}
+		else:
+			self.tables_dict = {table.__tablename__: table for table in db.Model.__subclasses__()}
 
 	#########################################################################################################
 	#	Load values from config files to database tables
